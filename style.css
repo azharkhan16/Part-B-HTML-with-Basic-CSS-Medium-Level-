@@ -1,0 +1,100 @@
+/* Common styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #a7baa0;
+}
+
+/* Profile Card */
+.profile-card {
+    background-color: rgb(197, 165, 165);
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 4px 4px 12px rgba(0,0,0,0.2);
+    text-align: center;
+}
+.profile-card img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #bcd4e6;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 12px;
+    box-shadow: 4px 4px 12px rgba(0,0,0,0.2);
+    display: flex;
+    justify-content: space-around;
+
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+/* Registration Form */
+.form-box {
+    background-color: #bcd4e6;
+    border: 1px solid #aaa;
+    padding: 15px;
+    width: 300px;
+    border-radius: 8px;
+}
+
+/* Two Column Layout */
+.two-column {
+    background-color: #bcd4e6;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 12px;
+    box-shadow: 4px 4px 12px rgba(0,0,0,0.2);
+    display: flex;
+    gap: 20px;
+   
+}
+.two-column .text {
+    flex: 1;
+}
+.two-column img {
+    width: 200px;
+    height: auto;
+}
+
+/* Styled Buttons */
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.btn1 {
+    background-color: #007BFF;
+    color: white;
+}
+.btn1:hover {
+    background-color: #0056b3;
+}
+.btn2 {
+    background-color: #28a745;
+    color: white;
+}
+.btn2:hover {
+    transform: scale(1.1);
+}
+.btn3 {
+    background-color: orange;
+    color: white;
+}
+.btn3:hover {
+    background-color: darkorange;
+    color: black;
+}
